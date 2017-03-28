@@ -1,21 +1,20 @@
-# help-desk-dashboard
+# Suporte ao Usuário Taller - API
 
-> Dashboard do Suporte de Usuário da Taller
+## Instruções de Instalação
 
-## Build Setup
+Ao clonar o repositório em seu computador e, antes de tentar rodar a API localmente, lembre de ter instalado globalmente os seguintes pacotes:
 
-``` bash
-# install dependencies
-npm install
+* Node.js;
+* NPM.
 
-# serve with hot reload at localhost:8080
-npm run dev
+Tendo os pacotes supracitados instalados globalmente em seu computador, navegue pelo terminal até a pasta do projeto `./help-desk-dashboard-taller` e execute o seguinte comando no terminal: `npm install`. Isso fará com que seja instalado todas as dependências necessárias para que o projeto funcione normalmente sem erros.
 
-# build for production with minification
-npm run build
+Para executar o projeto, antes de mais nada, você precisa se certificar que o `help-desk-api` esteja em execução. Pois ele é a nossa API na qual nos comunicaremos para o Dashboard funcionar normalmente.
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+Feito isso, para executar o projeto basta executar `npm run dev`. Tais comandos devem ser executado no terminal, dentro do diretório do projeto, `./help-desk-dashboard-taller`. Ele irá abrir uma nova aba em seu navegador com o projeto em execução.
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Login
+
+**- Usuário:** admin
+**- Senha:** a1b2c3d4
