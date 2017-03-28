@@ -9,12 +9,13 @@
 
       <ul class="right hide-on-med-and-down">
         <li><router-link to="/">Inicio</router-link></li>
-        <li><router-link to="/login" v-if="user.authenticated" @click="logout()">Sair</router-link></li>
+        <li><a @click="logout()">Sair</a></li>
       </ul>
 
       <ul class="side-nav" id="mobile-demo">
         <li><router-link to="/">Inicio</router-link></li>
-        <li><router-link to="/login" v-if="user.authenticated" @click="logout()">Sair</router-link></li>
+        <li><a @click="logout()">Sair</a></li>
+        <!-- <li><router-link to="/login" v-if="user.authenticated" @click="logout()">Sair</router-link></li> -->
       </ul>
     </div>
   </nav>
@@ -39,6 +40,12 @@ export default {
       edge: 'left',
       closeOnClick: true
     })
+  },
+
+  methods: {
+    logout () {
+      auth.logout()
+    }
   }
 }
 </script>

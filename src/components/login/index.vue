@@ -30,16 +30,6 @@
         </div>
       </form>
     </div>
-
-    <div id="modal1" class="modal" v-if="statusErro === true">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
-  </div>
   </div>
 </template>
 
@@ -60,6 +50,10 @@ export default {
 
       statusErro: false
     }
+  },
+
+  mounted: function () {
+    console.log('token de login: ', localStorage.getItem('token'))
   },
 
   methods: {
