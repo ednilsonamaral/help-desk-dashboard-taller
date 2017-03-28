@@ -15,6 +15,8 @@ Vue.filter('formatDate', function (value) {
   }
 })
 
+import 'font-awesome/css/font-awesome.min.css'
+
 Vue.use(VueRouter)
 
 const routes = [
