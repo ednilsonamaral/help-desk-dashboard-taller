@@ -16,7 +16,7 @@ Feito isso, para executar o projeto basta executar `npm run dev`. Tais comandos 
 
 ## Login
 
-### Usuário: admin
+### Usuário: admin@admin.com
 ### Senha: a1b2c3d4
 
 ## Tecnologias utilizadas
